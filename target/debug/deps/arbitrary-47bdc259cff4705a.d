@@ -1,0 +1,10 @@
+C:\Users\Admin\Downloads\pricebridge-soroban\pricebridge-soroban-main\longg_stellar\target\debug\deps\arbitrary-47bdc259cff4705a.d: C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arbitrary-1.3.2\src\lib.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arbitrary-1.3.2\src\error.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arbitrary-1.3.2\src\unstructured.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arbitrary-1.3.2\src\size_hint.rs
+
+C:\Users\Admin\Downloads\pricebridge-soroban\pricebridge-soroban-main\longg_stellar\target\debug\deps\libarbitrary-47bdc259cff4705a.rlib: C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arbitrary-1.3.2\src\lib.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arbitrary-1.3.2\src\error.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arbitrary-1.3.2\src\unstructured.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arbitrary-1.3.2\src\size_hint.rs
+
+C:\Users\Admin\Downloads\pricebridge-soroban\pricebridge-soroban-main\longg_stellar\target\debug\deps\libarbitrary-47bdc259cff4705a.rmeta: C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arbitrary-1.3.2\src\lib.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arbitrary-1.3.2\src\error.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arbitrary-1.3.2\src\unstructured.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arbitrary-1.3.2\src\size_hint.rs
+
+C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arbitrary-1.3.2\src\lib.rs:
+C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arbitrary-1.3.2\src\error.rs:
+C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arbitrary-1.3.2\src\unstructured.rs:
+C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arbitrary-1.3.2\src\size_hint.rs:
