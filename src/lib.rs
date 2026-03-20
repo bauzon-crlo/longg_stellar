@@ -14,7 +14,7 @@ contractmeta!(
 
 #[contracterror]
 #[repr(u32)]
-#[derive(Clone, Copy, Eq, PartialEq)]
+#[derive(Clone, Copy, Eq, PartialEq, Debug)]
 pub enum Error {
     Unauthorized = 1,
     Decode = 2,
@@ -213,8 +213,10 @@ impl PriceBridge {
         let mut buf = [0u8; 128];
         let len = input.len() as usize;
         input.copy_into_slice(&mut buf[..len]);
-        let decoded =
-            PriceFeedInput::abi_decode(&buf[..len]).map_err(|_| Error::Decode)?;
+
+        // fix: abi_decode requires validate: bool as second argument
+        let decoded = PriceFeedInput::abi_decode(&buf[..len], true)
+            .map_err(|_| Error::Decode)?;
 
         let asset_bytes = Bytes::from_slice(&e, decoded.asset.as_slice());
 
@@ -228,7 +230,9 @@ impl PriceBridge {
             return Err(Error::FeedNotRegistered);
         }
 
-        let price = decoded.price.as_i128();
+        // fix: use try_into() instead of as_i128()
+        let price: i128 = decoded.price.try_into().map_err(|_| Error::InvalidPrice)?;
+
         if price <= 0 {
             return Err(Error::InvalidPrice);
         }
